@@ -1,17 +1,21 @@
 -- SQL Queries to understand the data
 
 -- Check the count of records to match the data source text file 
-select count(*) from coviddeaths
+select count(*) 
+from coviddeaths
 
 -- Query to see the records and the data are displayed correctly
-select * from coviddeaths
+select * 
+from coviddeaths
 limit 100
 
 -- Check the count of records to match the data source text file 
-select count(*) from CovidVaccinations
+select count(*) 
+from CovidVaccinations
 
 -- Query to see the records and the data are displayed correctly
-select * from CovidVaccinations
+select * 
+from CovidVaccinations
 limit 100
 
 select location, total_cases , total_deaths 
